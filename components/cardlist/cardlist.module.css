@@ -5,3 +5,9 @@
 .title {
   margin: 50px 0px;
 }
+
+.noPost {
+  margin-bottom: 30px;
+  color: crimson;
+  font-size: 18px;
+}
