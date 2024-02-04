@@ -13,6 +13,10 @@ const AuthLinks = () => {
 
   const { status } = useSession();
 
+  if (status === "loading") {
+    return;
+  }
+
   return (
     <>
       {status === "unauthenticated" ? (
