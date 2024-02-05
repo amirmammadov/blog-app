@@ -36,7 +36,7 @@ const CardList = async ({ page, cat }) => {
         {count === 0 ? (
           <div className={styles.noPost}>There is no post yet</div>
         ) : (
-          posts?.map((item) => <Card item={item} key={item._id} />)
+          posts?.map((item) => <Card item={item} key={item.id} />)
         )}
       </div>
       <Pagination page={page} hasPrev={hasPrev} hasNext={hasNext} />
