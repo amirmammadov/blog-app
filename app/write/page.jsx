@@ -314,7 +314,7 @@ const WritePage = () => {
         />
       </div>
       <button className={styles.publish} onClick={handleSubmit}>
-        Publish
+        Submit
       </button>
     </div>
   );

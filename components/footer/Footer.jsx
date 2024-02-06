@@ -10,20 +10,13 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.info}>
         <div className={styles.logo}>
-          <Image src="/logo.png" alt="logo" width={50} height={50} />
           <h1 className={styles.logoText}>amirblog</h1>
         </div>
         <p className={styles.desc}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
-          necessitatibus similique aspernatur obcaecati veritatis. Aperiam cum
-          porro sequi, totam minima consequuntur, aspernatur deleniti vero
-          repellendus dorales.
+          In the heart of a bustling city, a mysterious figure weaves through
+          the crowd, leaving behind a trail of unanswered questions and
+          whispered intrigue.
         </p>
-        <div className={styles.icons}>
-          <Image src="/facebook.png" alt="facebook" width={18} height={18} />
-          <Image src="/instagram.png" alt="instagram" width={18} height={18} />
-          <Image src="/youtube.png" alt="youtube" width={18} height={18} />
-        </div>
       </div>
       <div className={styles.links}>
         <div className={styles.list}>

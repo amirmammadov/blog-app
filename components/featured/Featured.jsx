@@ -8,7 +8,7 @@ const Featured = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <b>Hey, lama dev here!</b> Discover my stories and creative ideas.
+        <b>Step into a world</b> where words weave wonders.
       </h1>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
@@ -21,13 +21,12 @@ const Featured = () => {
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>
-            Lorem ipsum dolor sit amet alim consectetur adipisicing elit.
+            Baku Unveiled: Exploring the Heart of Azerbaijan
           </h1>
           <p className={styles.postDesc}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Cupiditate, quam nisi magni ea laborum inventore voluptatum
-            laudantium repellat ducimus unde aspernatur fuga. Quo, accusantium
-            quisquam! Harum unde sit culpa debitis.
+            Dive into the vibrant streets and rich history of Baku, the jewel of
+            Azerbaijan. From ancient palaces to modern marvels, uncover the
+            {"city's"} secrets and immerse yourself in its diverse culture
           </p>
           <button className={styles.button}>Read More</button>
         </div>

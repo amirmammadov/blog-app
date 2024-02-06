@@ -13,6 +13,7 @@
 
 .editor {
   display: flex;
+  justify-content: flex-start;
   gap: 20px;
   height: 700px;
   position: relative;
@@ -60,6 +61,13 @@
 
 .textArea {
   width: 100%;
+  margin-top: 50px;
+  background-color: #b3b3b1;
+  height: 200px;
+}
+
+.textArea::placeholder {
+  color: white;
 }
 
 .publish {
